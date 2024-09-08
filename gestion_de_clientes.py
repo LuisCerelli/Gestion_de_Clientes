@@ -24,3 +24,10 @@ def agregar_mascota(rut, nombre, tipo):
                 "tipo": tipo
             }
             cliente["mascotas"].append(mascota)
+            return
+    print("Cliente no encontrado")    
+
+print(clientes)
+registrar_cliente("Luis", "Cerelli", 123)
+agregar_mascota(123,"Bobby", "Perro")
+print(clientes)
